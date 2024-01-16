@@ -1,0 +1,78 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: #000;
+    color: #22ff00e7;
+    font-family:monospace;
+    font-size:x-large;
+    /* background: url(piccher/backimg.webp) fixed;
+ background-position: center;
+ background-repeat: no-repeat;
+ background-size: cover; */
+ }
+ .nopicher{
+    pointer-events: none;
+ }
+ .noselect {
+    cursor:grab;
+     -webkit-touch-callout: none;
+     -webkit-user-select: none;
+     -khtml-user-select: none;
+     -moz-user-select: none;
+     -ms-user-select: none;
+     user-select: none;
+ }
+
+.cen{
+    border: 10px ridge #06ab00;
+    margin: 5% 5%;
+    padding: 1%;
+}
+
+.just{
+    text-align: justify;
+     text-indent: 5%;
+
+}
+
+.cent{
+    font-size: larger;
+    text-align: center;
+margin-bottom: 3%;
+}
+
+.but{
+    border: 1px solid #00d9ff;
+    margin: 1% 20%;
+padding: 2%;
+}
+
+.but:hover{
+    cursor:pointer;
+    color: rgb(0, 255, 251);
+}
+
+.butOk{
+    cursor: pointer;
+    
+}
+
+.butOk:hover{
+    color: rgb(0, 255, 251);
+   font-weight: 900;
+}
+
+.mon1{
+    position:fixed;
+    text-align: right;
+    right: 6.5%;
+    top: 2.5%;
+}
+.mon2{
+   cursor: pointer; 
+    position:fixed;
+    text-align: right;
+    height: 60px;
+    left: 93%;
+    top: 0;
+}

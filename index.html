@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="rus">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Полезный сайт</title>
+    <link rel="shortcut icon" href="img/lg11.png">
+    <link rel="stylesheet" href="sityS.css">
+</head>
+
+<body>
+    <div class="cen" id="Priv">
+        <div class="cent">
+            Тривиальное приветствие!
+        </div>
+        <div class="just">
+            Здравствуй читатель / студент / заинтересованный человек.
+            <br>
+            <br> &emsp;Самодельный сайт, посвящённый основам ЯМ, ЛТ, Клинической дозиметрии и МФОКТ. Здесь присутствуют
+            важные аспекты курсов, которые могут быть полезны для сдачи сессии, такие как:
+            <br>* &emsp;решенные задачи с некоторыми объяснениями;
+            <br>* &emsp;ответы на некоторые вопросы с практических занятий и лекций;
+            <br>* &emsp;упрощенное повествование содержимого курса;
+            <br>* &emsp;наличие дополнительной информации для качественного закрепления темы (словосочетания и вопросы,
+            которые можно сказать/задать преподавателю, чтобы показать, что вы в теме).
+            <br>
+            <br> &emsp;Доступ к курсу осуществляется выборочно и не безвозмездно в виде лицензии на 21 день.
+
+        </div>
+        <div class="but cent" onclick="Vhod()">
+            Войти / Зарегистрироваться
+        </div>
+    </div>
+
+    <div class="cen just" id="Resgic">
+        <div>Для получения лицензии и доступа договоритесь с разработчиком. К способам получения доступа относятся:
+            <br>
+            <br>* &emsp;Поцелуй в щечку (только от некоторых представителей прекрасного пола).
+            <br>* &emsp;Материальная благодарность ( доступ к курсу - 100, доп.знаниия - 100).
+            <br>* &emsp; (В редких случаях) Непосредственное сотрудничество и взаимопомощь разработчику и автору сайта в
+            течение семестра.
+            <br>* &emsp; (В редких случаях) Помощь в дисциплинах: Основы законодательства в здравоохранении и Социология
+            и педагогика высшей школы.
+        </div>
+        <br>
+        <div><span>Если автор согласится предоставить вам доступ, то сообщите ему число, которое сгенерировано ниже по тексту,
+                он вам сообщит число которое вам нужно будет ввести: </span><span id="qvest">QW</span></div>
+        <br>
+        <div class="cent">
+            <input id="Vtext" type="number" placeholder="Число от разработчика">
+            <span class="butOk" onclick="Prov()">Получить доступ</span>
+        </div>
+    </div>
+
+    <div class="cen" id="Prog">
+        <div class="he1" id="hed1">
+            <div class="mon1" id="mny">0</div>
+            <img src="https://usagif.com/wp-content/uploads/gifs/coin-flip-49.gif" alt="" class="mon2" title="Ваши монетки знаний" onclick="Dopm()">            * Клиническая дозиметрия:
+            <br> |
+            <span class="butOk" onclick="prakt()">Практические задания</span> |
+            <span class="butOk" onclick="pract1()">Вопросы на практических занятиях</span> |
+            <span class="butOk" onclick="practD1()">Доп.инфа</span> |
+            <br>
+            <br>
+            * МФОКТ:
+            <br> |
+            <span class="butOk" onclick="prakt2()">Практические задания</span> |
+            <span class="butOk" onclick="pract3()">Вопросы на практических занятиях</span> |
+            <span class="butOk" onclick="practD2()">Доп.инфа</span> |
+         </div>
+        <br>
+        <div class="boe1" id="boed1">
+        </div>
+    </div>
+    </div>
+
+
+    <script src="scripting.js"></script>
+</body>
+
+</html>
